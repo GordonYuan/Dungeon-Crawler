@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="map1" layoutX="206.0" layoutY="30.0" mnemonicParsing="false" onAction="#handleCreateMapButton1" prefHeight="43.0" prefWidth="149.0" text="EMPTY" />
+      <Button fx:id="map2" layoutX="206.0" layoutY="84.0" mnemonicParsing="false" onAction="#handleCreateMapButton2" prefHeight="43.0" prefWidth="149.0" text="EMPTY" />
+      <Button fx:id="map3" layoutX="206.0" layoutY="140.0" mnemonicParsing="false" onAction="#handleCreateMapButton3" prefHeight="43.0" prefWidth="149.0" text="EMPTY" />
+      <Button fx:id="map4" layoutX="206.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleCreateMapButton4" prefHeight="43.0" prefWidth="149.0" text="EMPTY" />
+      <Button fx:id="map5" layoutX="206.0" layoutY="255.0" mnemonicParsing="false" onAction="#handleCreateMapButton5" prefHeight="43.0" prefWidth="149.0" text="EMPTY" />
+      <Button fx:id="map6" layoutX="206.0" layoutY="314.0" mnemonicParsing="false" onAction="#handleCreateMapButton6" prefHeight="43.0" prefWidth="149.0" text="EMPTY" />
+      <Canvas height="200.0" width="200.0" />
+      <Button layoutX="467.0" layoutY="322.0" mnemonicParsing="false" onAction="#goBack" text="BACK" />
+   </children>
+</Pane>
